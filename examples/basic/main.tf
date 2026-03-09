@@ -1,4 +1,3 @@
-```hcl
 provider "azuread" {}
 
 module "engineering_group" {
@@ -6,4 +5,3 @@ module "engineering_group" {
   display_name = "GG-Engineering"
   description  = "Engineering security group"
 }
-```

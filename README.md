@@ -8,6 +8,24 @@ The goal is not to cover every Azure AD feature, but to provide **clean, composa
 
 ---
 
+## Repository structure
+
+```
+terraform-azure-identity/
+├── README.md
+├── modules/
+│   └── security-group/
+│       ├── main.tf
+│       ├── variables.tf
+│       ├── outputs.tf
+│       └── README.md
+└── examples/
+    └── basic/
+        └── main.tf
+```
+
+---
+
 ## Design Principles
 
 - **Small and focused modules**
